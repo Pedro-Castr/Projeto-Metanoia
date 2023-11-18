@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'heavitas';
+    src: url(../fontes/Heavitas.ttf);
+}
+
+@font-face {
+    font-family: 'space grotesk';
+    src: url(../fontes/SpaceGrotesk-VariableFont_wght.ttf);
+}
+
+:root {
+    --fonte1: 'heavitas', sans-serif;
+    --fonte2: 'space grotesk', sans-serif;
+    --fonte3: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-family: var(--fonte3);
+    background-color: #ccd3ff;
+    height: 100vh;
+}
+
+h1, h2, h3 {
+    color: #57207c;
+    font-family: var(--fonte2);
+}
+
+h1#titulo {
+    font-family: var(--fonte1);
+    font-size: 2.5em;
+    padding-left: 20px;
+    color: #fff;
+    text-shadow: 4px 4px rgba(0, 0, 0, 0.493);
+}
+
+h2 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+p {
+    padding: 0 30px 0 30px;
+    text-align: justify;
+    font-size: large;
+    text-indent: 20px;
+}
+
+strong {
+    color: #57207c;
+}
+
+a.link-externo {
+    color: #57207c;
+    text-decoration: none;
+}
+
+a.link-externo:hover {
+    color: #57207c;
+    text-decoration: underline;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #8e40c2, #2C46FA);
+    font-family: var(--fonte2)
+}
+
+header > ul > li > a:hover {
+    text-decoration: underline;
+    transform: translate(-3px, -3px);
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.486);
+}
+
+article.duas-imagens {
+    text-align: center;
+}
+
+article.duas-imagens > img {
+    display: inline-block;
+    height: 45vh;
+    margin: auto;
+    margin-bottom: 10px;
+    border: 2px solid #57207c;
+}
+
+article > p > a {
+    color: #57207c;
+}
+
+article > p > a:hover {
+    color: #8e40c2;
+}
+
+div.container-fluid {
+    font-family: var(--fonte2);
+    background-image: linear-gradient(to bottom, #2C46FA, #8e40c2);
+    color: #fff;
+    margin-top: -24px;
+}
+
+div.container-fluid > footer > ul > li > a:hover {
+    text-decoration: underline;
+    transform: translate(-3px, -3px);
+}
+
+div.card {
+    background-color: #f5f6ff;
+}
+
+input[type='number']{
+    width: 130px;
+}
+
+ul.servicos > li {
+    margin-left: 30px;
+}
+
+
+img.perfil {
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+    padding-top: 10px;
+    margin: auto;
+}
+
+.nome {
+    font-family: var(--fonte1);
+    color: #57207c;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.445);
+}
+
+a.externo::after {
+    content: "\00A0\1F517";
+}

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="imagens/house.png" type="image/x-icon">
+    <script src="javascript/montapix.js"></script>
+    <script src="javascript/qrcode.min.js"></script>
+    <script src="javascript/doacoes.js"></script>
+    <title>Metanoia - Doações</title>
+</head>
+
+<body>
+    <header class="d-flex flex-wrap justify-content-center py-3 border-bottom">
+        <a href="index.html"
+            class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <h1 id="titulo">METANÓIA</h1>
+        </a>
+
+        <ul class="nav nav-pills pe-4">
+            <li class="nav-item"><a href="index.html" class="nav-link text-light">Home</a></li>
+            <li class="nav-item"><a href="fotos.html" class="nav-link text-light">Fotos</a></li>
+            <li class="nav-item"><a href="doacao.html" class="nav-link text-light">Doações</a></li>
+            <li class="nav-item"><a href="sobre.html" class="nav-link text-light">Sobre</a></li>
+            <li class="nav-item"><a href="equipe.html" class="nav-link text-light">Equipe</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <h1 class="text-center fst-italic pt-3">Doações</h1>
+        <h4 class="text-center">Sua ajuda nos motiva a continuar!</h4>
+
+        <div class="row mt-5 mx-4 position-relative">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="imagens/logo-pix.png" alt="PIX">
+                    <div class="card-body produto" data-nome="Cesta Básica" data-preco="10.00">
+                        <h5 class="card-title">PIX</h5>
+                        <p class="card-text">Preço: R$ 10,00</p>
+                        <div class="row">
+                            <div class="col-8">
+                                <input type="number" class="form-control quantidade" placeholder="Quantidade">
+                            </div>
+                            <div class="col-4">
+                                <button class="btn btn-outline-success btn-sm btn-adicionar">Adicionar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="imagens/logo-pix.png" alt="PIX">
+                    <div class="card-body produto" data-nome="Cesta Básica" data-preco="30.00">
+                        <h5 class="card-title">PIX</h5>
+                        <p class="card-text">Preço: R$ 30,00</p>
+                        <div class="row">
+                            <div class="col-8">
+                                <input type="number" class="form-control quantidade" placeholder="Quantidade">
+                            </div>
+                            <div class="col-4">
+                                <button class="btn btn-outline-success btn-sm btn-adicionar">Adicionar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="imagens/logo-pix.png" alt="PIX">
+                    <div class="card-body produto" data-nome="Cesta Básica" data-preco="50.00">
+                        <h5 class="card-title">PIX</h5>
+                        <p class="card-text">Preço: R$ 50,00</p>
+                        <div class="row">
+                            <div class="col-8">
+                                <input type="number" class="form-control quantidade" placeholder="Quantidade">
+                            </div>
+                            <div class="col-4">
+                                <button class="btn btn-outline-success btn-sm btn-adicionar">Adicionar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="imagens/pano-de-prato.png" class="card-img-top" alt="Pano de Prato">
+                    <div class="card-body produto" data-nome="Pano de Prato" data-preco="25.00">
+                        <h5 class="card-title">Pano de Prato</h5>
+                        <p class="card-text">Preço: R$ 25,00</p>
+                        <div class="row">
+                            <div class="col-8">
+                                <input type="number" class="form-control quantidade" placeholder="Quantidade">
+                            </div>
+                            <div class="col-4">
+                                <button class="btn btn-outline-success btn-sm btn-adicionar">Adicionar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="imagens/material-escolar.png" class="card-img-top" alt="Material Escolar">
+                    <div class="card-body produto" data-nome="Material Escolar" data-preco="50.00">
+                        <h5 class="card-title">Material Escolar</h5>
+                        <p class="card-text">Preço: R$ 50,00</p>
+                        <div class="row">
+                            <div class="col-8">
+                                <input type="number" class="form-control quantidade" placeholder="Quantidade">
+                            </div>
+                            <div class="col-4">
+                                <button class="btn btn-outline-success btn-sm btn-adicionar">Adicionar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="imagens/cesta-basica.png" alt="cesta-basica">
+                    <div class="card-body produto" data-nome="Cesta Básica" data-preco="130.00">
+                        <h5 class="card-title">Cesta Básica</h5>
+                        <p class="card-text">Preço: R$ 130,00</p>
+                        <div class="row">
+                            <div class="col-8">
+                                <input type="number" class="form-control quantidade" placeholder="Quantidade">
+                            </div>
+                            <div class="col-4">
+                                <button class="btn btn-outline-success btn-sm btn-adicionar">Adicionar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <div class="row pb-4">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Carrinho de Compras</h5>
+                        <div id="carrinho">Adicione um item</div>
+                        <div id="total" class="fw-bold">R$ 0,00</div>
+                        <button class="btn btn-sm btn-success" id="btn-finalizar" style="display: none">
+                            Finalizar
+                        </button>
+                        <div id="qrcode" class="text-center mt-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="container-fluid">
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="index.html" class="nav-link text-light">Home</a></li>
+                <li class="nav-item"><a href="fotos.html" class="nav-link text-light">Fotos</a></li>
+                <li class="nav-item"><a href="doacao.html" class="nav-link text-light">Doações</a></li>
+                <li class="nav-item"><a href="sobre.html" class="nav-link text-light">Sobre</a></li>
+                <li class="nav-item"><a href="equipe.html" class="nav-link text-light">Equipe</a></li>
+            </ul>
+            <p class="text-center text-light">© Metanóia, Todos os Direitos Reservados</p>
+        </footer>
+    </div>
+</body>
+</html>
