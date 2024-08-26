@@ -1,8 +1,27 @@
-# Projeto-Metanoia
-Um site criado por amigos da faculdade, com o intuito de divulgar um projeto pequeno chamado Metanóia, contar sua história e levantar fundos para sustentar o projeto, através de doações de materiais ou valor monetário.
+# Projeto Metanoia
 
-Para criação do site, foram utilizados cores e fontes relacionadas com a identidade do projeto, fotos reais de acontecimentos reais.
+**Projeto Metanoia** é um site desenvolvido durante o meu primeiro ano de faculdade com o objetivo de demonstrar habilidades em HTML, CSS e JavaScript. O projeto é uma plataforma simples que apresenta conhecimentos básicos e intermediários nessas tecnologias front-end.
 
-Site responsivo, podendendo se adaptar em telas maiores e menores com facilidade.
+![Screenshot do Projeto Metanoia](imagens/ScreenshotProjeto.png)
 
-<a href="https://pedro-castr.github.io/Projeto-Metanoia/">Clique aqui para visitar o site<a>
+## 📜 Descrição
+
+Este projeto foi criado como parte de um estudo prático para consolidar os conhecimentos adquiridos em desenvolvimento web. Através deste site, busquei aplicar conceitos fundamentais de:
+
+- **HTML**: Estruturação de conteúdo e semântica.
+- **CSS**: Estilização e design responsivo.
+- **JavaScript**: Interatividade e manipulação do DOM.
+
+O **Projeto Metanoia** busca exemplificar a integração dessas três tecnologias para criar uma página web funcional e visualmente agradável.
+
+## 🚀 Funcionalidades
+
+- Exibição de conteúdo utilizando HTML semântico.
+- Estilização personalizada utilizando CSS, incluindo layouts responsivos.
+- Funcionalidades interativas utilizando JavaScript, como animações e manipulação de elementos do DOM.
+
+## 🛠️ Tecnologias Utilizadas
+
+- **HTML5**
+- **CSS3**
+- **JavaScript (ES6+)**
